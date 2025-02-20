@@ -1,3 +1,4 @@
+# ------------------------------Lecture1------------------------------
 # Ctrl + / to disable or enable comment
 # print("hello world")
 # x = input()
@@ -45,19 +46,87 @@
 # 		print("It's very cold")
 # else:
 # 	print("It's good")
-gender_input = input("Are you male (yes or no): ")
-is_male = None
+# gender_input = input("Are you male (yes or no): ")
+# is_male = None
 
-if gender_input == "yes":
-    is_male = True
-elif gender_input == "no":
-	is_male = False
-else:
-    is_male = None
+# if gender_input == "yes":
+#     is_male = True
+# elif gender_input == "no":
+# 	is_male = False
+# else:
+#     is_male = None
 
-if is_male == True:
-	print("You are male")
-elif is_male == False:
-	print("You are female")
-elif is_male == None:
-	print("Unknown")
+# if is_male == True:
+# 	print("You are male")
+# elif is_male == False:
+# 	print("You are female")
+# elif is_male == None:
+# 	print("Unknown")
+# import numpy as np
+# x = 4
+# y = np.sqrt(x)
+# print(y)
+# if isinstance(y, int):
+#     print(y)
+# else:
+#     print("Not an integer")
+# ------------------------------Lecture2------------------------------
+# for i in range(5):
+# for i in range (0,5):
+    # print(i)
+#     print(2*i)
+# for i in range(4):
+#     print((2*i)+1)
+# for i in range (0,6,2): # in range(a,b,c) a la gia tri dau, b la gia tri cuoi, c la buoc nhay
+#     print(i)
+# for i in range(0, 3):
+#     print(i)
+#     for j in range(3, 5):
+#         print(j)
+# i = 0
+# for j in range(3, 5):
+#     print(j)
+#     print(i)
+# i=1
+# for j in range(3, 5):
+#     print(j)
+#     print(i)
+# for i in range(0,2):
+#     for j in range(3,5 ):
+#         print(j)
+#         print(i)
+# for i in range(0,2):
+#     for j in range(3,5 ):
+#         print(j)
+#     print(i)
+# for i in range(10):
+#     if i == 5:
+#         continue
+#     print(i)
+# for i in range(10):
+#     if i == 5:
+#         break
+#     print(i)
+# i = 0
+# while i < 5:
+#     print(i)
+#     i = i + 1
+# while True:
+#     print(i)
+#     i += 1
+# i = 0
+# while i < 10:
+#     i += 1
+#     if i == 5:
+#         continue
+#     print(i)
+#     i += 1
+# while True:
+#     gender_input = input("Are you male (yes/no): ")
+#     if gender_input == "yes" or gender_input == "no":
+#         break
+answers_list = ["yes", "no", "y", "n"]
+while True:
+    gender_input = input("Are you male (yes/no): ")
+    if gender_input in answers_list:
+        break
